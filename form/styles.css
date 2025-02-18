@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url("https://images.freeimages.com/images/large-previews/74e/clean-matte-serene-texture-0410-5697788.jpg?fmt=webp&w=500");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #585454;
+    box-shadow: 2px 2px 7px 8px rgb(82, 80, 80);
+    border-radius: 8px;
+    background-color: transparent;
+  }
+  .form-container h2 {
+    text-align: center;
+    color: #442702;
+    font-weight: 900;
+    font-size: 40px;
+  }
+  .form-container input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .form-container button {
+    width: 30%;
+    padding: 10px;
+    margin-left: 140px ;
+    background-color: #442702;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .form-container button:hover {
+    background-color: white;
+    color: #442a02;
+  }
+  .toggle-btn {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #5e360b;
+  }
+  .toggle-btn:hover {
+    text-decoration: underline #1f8067;
+  }
